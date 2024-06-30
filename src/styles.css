@@ -1,0 +1,263 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-image: url(../src/app/imagenes/Utng.jpg);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#tipoSubsistema {
+    padding-left: 30px;
+}
+#archivo {
+    padding-left: 30px;
+}
+#resumen {
+    padding-left: 30px;
+}
+#autor {
+    padding-left: 30px;
+}
+#tituloArticulo {
+    padding-left: 30px;
+}
+#email {
+            padding-left: 30px;
+}
+#password {
+    padding-left: 30px;
+}
+#phone {
+    padding-left: 30px;
+}
+
+#fullname {
+    padding-left: 30px;
+}
+#confirm-password {
+    padding-left: 30px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.icon {
+    position: absolute;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888; 
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos para el contenedor de registro */
+.register-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.register-container .input-group {
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left;
+}
+
+.register-container .input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.register-container .input-group input:focus {
+    border-color: #007BFF;
+
+}
+
+.register-container .input-group input::placeholder {
+    color: #888;
+
+}
+
+.register-container button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+.register-container button:hover {
+    background-color: #0056b3;
+}
+
+.register-container p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+}
+
+.register-container p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.register-container p a:hover {
+    text-decoration: underline;
+}
+
+
+.cargar-archivo-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cargar-archivo-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.cargar-archivo-input-group {
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left;
+}
+
+.cargar-archivo-input-group input,
+.cargar-archivo-input-group select,
+.cargar-archivo-input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.cargar-archivo-input-group input:focus,
+.cargar-archivo-input-group select:focus,
+.cargar-archivo-input-group textarea:focus {
+    border-color: #007BFF;
+}
+
+.cargar-archivo-input-group input::placeholder,
+.cargar-archivo-input-group textarea::placeholder {
+    color: #888;
+}
+
+textarea {
+    resize: vertical;
+    height: 60px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

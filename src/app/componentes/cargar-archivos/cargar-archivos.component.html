@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargar Artículo</title>
+    <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+    <div class="cargar-archivo-container">
+        <h2>Cargar artículo</h2>
+        <form>
+            <div class="cargar-archivo-input-group">
+                <div class="icon">
+                    <i class="fa-solid fa-landmark"></i>
+                    </div>
+                <select id="tipoSubsistema" name="tipoSubsistema">
+                    <option value="" disabled selected>Tipo de Subsistema</option>
+                    <option value="universidad-politecnica">Universidad Politécnica</option>
+                    <option value="universidad-tecnologica">Universidad Tecnológica</option>
+                    <option value="instituto-tecnologico">Instituto Tecnológico</option>
+                </select>
+            </div>
+            <div class="cargar-archivo-input-group">
+                <div class="icon">
+                     <i class="fa-solid fa-book"></i>
+                    </div>
+                <input type="text" id="tituloArticulo" name="tituloArticulo" placeholder="Título del artículo">
+            </div>
+            <div class="cargar-archivo-input-group">
+                <div class="icon">
+                    <i class="fa-solid fa-user"></i>
+                    </div>
+                <input type="text" id="autor" name="autor" placeholder="Autor">
+            </div>
+            <div class="cargar-archivo-input-group">
+                <div class="icon">
+                    <i class="fa-solid fa-book-open"></i>
+                    </div>
+                <textarea id="resumen" name="resumen" placeholder="Breve resumen del artículo"></textarea>
+            </div>
+            <div class="cargar-archivo-input-group">
+                <div class="icon">
+                    <i class="fa-solid fa-file"></i>
+                    </div>
+                <input type="file" id="archivo" name="archivo">
+            </div>
+            <button type="submit">Cargar archivo</button>
+        </form>
+    </div>
+</body>
+</html>
